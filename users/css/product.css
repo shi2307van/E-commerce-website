@@ -1,0 +1,51 @@
+
+.card-img-top{
+    width: 100%;
+    height: 200px ;
+    object-fit: contain;
+    margin-left: 0px;
+    border-radius: 0px;
+}
+.nl{
+   color: black;
+   margin-right: 30px;
+   margin-top: 20px;
+   font-size: 20px;
+   font-weight:400;
+}
+.under{
+    list-style: none;
+   
+}
+.phr{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(235, 15, 187);
+}
+.side{
+    width:100%;
+    height: 300px ;
+   
+}
+.star i{
+    font-size: 0.8rem;
+    color: rgb(222, 145, 89);
+}
+.star{
+    padding: 10px 0;
+}
+.imge{
+    margin-top:60px ;
+}
+.cat{
+    color: black;
+}
+.chr{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+.cart{
+    margin-bottom:30px ;
+    margin-top: 30px;
+}

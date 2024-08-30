@@ -1,0 +1,153 @@
+.navbar{
+   font-size: 16px;
+   font-weight:500;
+   top: 0;
+   left: 0;
+}
+img{
+    border-radius: 50%;
+    margin-left:0px;
+}
+form{
+    margin-left: 50px;
+    margin-top:0px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    padding:0 2px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    border-bottom:3px solid rgb(13, 80, 215);
+    
+}
+.navbar-light .navbar-nav .nav-item i {
+    padding: 0 5px;
+    color: black;
+    transition:0.2s ease;
+    margin-left:9px;
+    
+}
+.navbar-light .navbar-nav .nav-item i:hover{
+    color:rgb(13, 80, 215);
+}
+.navbar i{
+    font-size: 1.2rem;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.home span{
+    color:rgb(13, 80, 215);
+}
+.home{
+    background-image: url('../img/pexels-adrienne-andersen-2351844.jpg');
+    width: 100%;
+    height:90vh;
+    background-size:cover;
+    margin-top: 60px;
+}
+
+button{
+    font-size:0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: black;
+    color:aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #3a2a99;
+}
+.p-3 p{
+    font-size:20px;
+    font-weight: bold; 
+    padding-top: 20px;  
+}
+.p-3{
+    background-color: rgb(212, 168, 168);
+    color: aliceblue;
+   
+}
+.product{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.product img{
+    transition: 0.3s all;
+}
+.product:hover img {
+    opacity: 0.7;
+}
+.product .buy-btn{
+    background-color: rgb(11, 4, 48);
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+.product:hover .buy-btn{
+    transform: translateY(0);
+    opacity: 1;
+}
+hr{
+    width:50px;
+    height:2px;
+    background-color:  rgb(244, 100, 232);
+}
+.star i{
+    font-size: 0.8rem;
+    color: rgb(222, 145, 89);
+}
+.star{
+    padding: 10px 0;
+}
+.footer{
+    background: #333;
+  
+}
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.footer .box-container .box{
+    padding: 1rem 0;
+    flex: 1 1 10rem;
+}
+.footer .box-container .box h3{
+    font-size:20px;
+    padding: .7rem 0;
+    color: #fff;
+}
+.footer .box-container .box p{
+    font-size: 15px;
+    padding: .7rem 0;
+    color: #eee;
+}
+.footer .box-container .box a{
+    display: block;
+    font-size:15px ;
+    padding: .5rem 0;
+    color: #eee;
+}
+.footer .box-container .box a:hover{
+    color:rgb(220, 53, 229);
+    text-decoration: underline;
+}
+.footer .credit{
+    text-align: center;
+    padding: 2rem 1rem ;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #fff;
+    border-top: .1rem solid rgba(255, 255, 255, .2);
+}
+.footer .credit span{
+    color:rgb(147, 13, 154);
+}

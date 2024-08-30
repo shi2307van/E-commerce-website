@@ -1,0 +1,42 @@
+#regi{
+    margin-top:20px;
+    background:linear-gradient(255deg,#40b5eb,#d22c64);
+
+}
+.form-singup{
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.form-singup h1 span{
+    border-bottom: 4px solid #ff4584;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.form-singup label{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: rgb(96, 22, 70);
+}
+.form-singup a{
+    color: #ff4584;
+}
+.form-singup input,textarea{
+   border: 1px solid #ff4584;
+}
+.form-singup textarea{
+    border: 1px solid #ff4584;
+}
+.form-singup .btn{
+    border: none;
+    background:linear-gradient(255deg,#40b5eb,#d22c64);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #2f101a;
+    font-size: 25px;
+    font-weight: 700;
+}
+.form-singup p{
+    text-align: center;
+}

@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: rgb(74, 112, 164);
+    line-height: 70px;
+    padding-left:30px 
+}
+
+.but:hover{
+    background-color: rgb(2, 2, 99);
+}
+.a1{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: none!important;
+}
+.a1:hover{
+    text-decoration: none;
+    color: rgb(30, 62, 207);
+   
+
+}
+
+.uili {
+    background-color: #272c39;
+    width: 16%;
+    height: 100%;
+    position: fixed;
+    padding-top:5% ;
+    text-align: center;
+}
+.uili li {
+    list-style: none;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+.uili li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.uili li a:hover{
+    text-decoration: none;
+    color: rgb(112, 146, 239);
+}
